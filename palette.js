@@ -5,7 +5,7 @@ module.exports = {
       velvet: '#F3ADB8',
       velvetdark: '#3F0129',
       black: '#0E0D0D',
-      gray: '#F9F9F9',
+      gray: '#e3e1e1',
       info: '#8296FB',
       graydark: '#C0BCB0',
       warning: '#E4B52E',
