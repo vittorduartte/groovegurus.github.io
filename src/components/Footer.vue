@@ -1,8 +1,8 @@
 <template>
 <footer class="flex justify-center w-full bg-brand-velvet py-12">
     <div class="flex flex-col items-center">
-        <div class="flex flex-col lg:flex-row my-10">
-            <div class="lg:mr-10 m-auto">
+        <div class="flex flex-col lg:flex-row lg:items-center">
+            <div class="mx-auto my-10 lg:mr-10 lg:my-0">
                 <img src="../assets/images/logo-velvet.svg" alt="">
             </div>
             <div class="flex flex-col">
@@ -10,13 +10,13 @@
                     NOS ACOMPANHE NAS REDES:
                 </p>
                 <div class="flex flex-col justify-center lg:flex-row">
-                    <img class="widget-anchor lg:mr-5 mb-3 hover:shadow-lg transition-shadow duration-500" src="../assets/images/instagram-widget.svg" alt="" srcset="">
-                    <img class="widget-anchor lg:mr-5 mb-3 hover:shadow-lg transition-shadow duration-500" src="../assets/images/tiktok-widget.svg" alt="" srcset="">
-                    <img class="widget-anchor hover:shadow-lg transition-shadow duration-500" src="../assets/images/youtube-widget.svg" alt="" srcset="">
+                    <img class="widget-anchor lg:mr-5 mb-3" src="../assets/images/instagram-widget.svg" alt="" srcset="">
+                    <img class="widget-anchor lg:mr-5 mb-3" src="../assets/images/tiktok-widget.svg" alt="" srcset="">
+                    <img class="widget-anchor" src="../assets/images/youtube-widget.svg" alt="" srcset="">
                 </div>
             </div>
         </div>
-        <div class="flex flex-col lg:flex-row footer-text-copyright text-sm">
+        <div class="flex flex-col lg:flex-row footer-text-copyright text-sm mt-10">
             &lt;/> DESENVOLVIDO E MANTIDO PELO<span class="font-bold ml-3"> TIME DE TECNOLOGIA GROOVE GURUS </span>
         </div>
     </div>
