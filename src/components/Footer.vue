@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col lg:flex-row footer-text-copyright text-sm mt-10">
+        <div class="flex flex-col lg:flex-row footer-text-copyright text-xs mt-10">
             &lt;/> DESENVOLVIDO E MANTIDO PELO<span class="font-bold ml-3"> TIME DE TECNOLOGIA GROOVE GURUS </span>
         </div>
     </div>
@@ -37,6 +37,6 @@ export default {
 
 .widget-anchor {
     cursor: pointer;
-    max-height: 45px; 
+    max-height: 38px; 
 }
 </style>
