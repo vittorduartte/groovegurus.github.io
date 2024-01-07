@@ -6,7 +6,7 @@
                 Dê voz à sua experiência e <br/>
                 participe da nossa pesquisa<span class="writing-machine">_</span> 
             </h3>
-            <button class="button-anchor hover:shadow-xl hover:shadow-brand-velvet transition-shadow duration-500">
+            <button class="button-anchor hover:shadow-xl hover:shadow-mediumslateblue-400 transition-shadow duration-500">
                 <img class="mr-3" src="../assets/icons/bx_user-voice.svg">
                 RESPONDER PESQUISA
             </button>
