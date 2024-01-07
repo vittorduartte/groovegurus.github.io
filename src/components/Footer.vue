@@ -1,22 +1,22 @@
 <template>
-<footer class="bg-brand-velvet py-12">
+<footer class="flex justify-center w-full bg-brand-velvet py-12">
     <div class="flex flex-col items-center">
-        <div class="flex my-10">
-            <div class="mr-10">
+        <div class="flex flex-col lg:flex-row my-10">
+            <div class="lg:mr-10 m-auto">
                 <img src="../assets/images/logo-velvet.svg" alt="">
             </div>
             <div class="flex flex-col">
-                <p class="font-medium text-left text-brand-velvetdark mb-3 tracking-widest">
+                <p class="font-medium text-left text-brand-velvetdark my-4 lg:mb-3 tracking-widest">
                     NOS ACOMPANHE NAS REDES:
                 </p>
-                <div class="flex">
-                    <img class="widget-anchor mr-5 hover:shadow-lg" src="../assets/images/instagram-widget.svg" alt="" srcset="">
-                    <img class="widget-anchor mr-5 hover:shadow-lg" src="../assets/images/tiktok-widget.svg" alt="" srcset="">
-                    <img class="widget-anchor hover:shadow-lg" src="../assets/images/youtube-widget.svg" alt="" srcset="">
+                <div class="flex flex-col justify-center lg:flex-row">
+                    <img class="widget-anchor lg:mr-5 mb-3 hover:shadow-lg transition-shadow duration-500" src="../assets/images/instagram-widget.svg" alt="" srcset="">
+                    <img class="widget-anchor lg:mr-5 mb-3 hover:shadow-lg transition-shadow duration-500" src="../assets/images/tiktok-widget.svg" alt="" srcset="">
+                    <img class="widget-anchor hover:shadow-lg transition-shadow duration-500" src="../assets/images/youtube-widget.svg" alt="" srcset="">
                 </div>
             </div>
         </div>
-        <div class="footer-text-copyright text-sm">
+        <div class="flex flex-col lg:flex-row footer-text-copyright text-sm">
             &lt;/> DESENVOLVIDO E MANTIDO PELO<span class="font-bold ml-3"> TIME DE TECNOLOGIA GROOVE GURUS </span>
         </div>
     </div>
@@ -37,5 +37,6 @@ export default {
 
 .widget-anchor {
     cursor: pointer;
+    max-height: 45px; 
 }
 </style>

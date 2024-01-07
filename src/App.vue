@@ -1,14 +1,17 @@
 <template>
+  <Research />
   <Footer />
 </template>
 
 <script>
 import Footer from './components/Footer.vue';
+import Research from './components/Research.vue';
 
 export default {
   name: "App",
   components: {
-    Footer
+    Footer,
+    Research
   },
 };
 </script>
