@@ -80,9 +80,9 @@
             </div>
         </div>
         <div class="relative -top-96 -mt-40 hidden lg:flex flex-col rotate-12 mx-auto max-w-5xl overflow-x-hidden -z-10">
-            <GuruPassInfinityScrool class="translate-x-12" orientation="right"/>
+            <GuruPassInfinityScrool class="translate-x-12" :inverse="true"/>
             <GuruPassInfinityScrool />
-            <GuruPassInfinityScrool class="-translate-x-12" orientation="right"/>
+            <GuruPassInfinityScrool class="-translate-x-12" :inverse="true"/>
         </div>
     </section>
 </template>
