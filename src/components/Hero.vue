@@ -1,28 +1,28 @@
 <template>
   <header class="header-container">
     <div class="flex flex-col w-4/5 max-w-6xl">
-        <div class="flex items-center justify-between py-10">
+        <div class="flex items-center justify-center lg:justify-between py-10">
             <div clas="w-28 lg:w-32">
                 <a href="#" class="">
                     <img class="w-full" src="../assets/images/logo-white.svg" alt="" srcset="">
                 </a>
             </div>
-            <div class="items-center hidden lg:flex">
-                <a class="font-medium text-lg text-brand-gray menu-item-hover mr-8" href="">Sobre Nós</a>
-                <a class="font-medium text-lg text-brand-gray menu-item-hover mr-8" href="">Pesquisa</a>
-                <a class="font-medium text-lg text-brand-gray menu-item-hover mr-8" href="">Comunidade</a>
-                <a class="button-anchor border-2 border-brand-main transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50 hover:border-brand-secondary" href="#">
+            <nav class="items-center hidden lg:flex">
+                <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#about-us">Sobre Nós</a>
+                <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#research">Pesquisa</a>
+                <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#comunity">Comunidade</a>
+                <a class="button-anchor border-2 border-brand-main transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50 hover:border-white/80" href="#">
                     <font-awesome-icon class="fa-lg mr-2" :icon="['fas', 'hand-holding-heart']" />
                     Quero ser apoiador
                 </a>
-            </div>
+            </nav>
         </div>
         <div class="flex flex-col pb-48 pt-32">
-            <div class="flex flex-col text-5xl lg:text-7xl text-center text-white drop-shadow-2xl drop-shadow-[0px_0_12px_rgba(255,255,255,0.5)]">
+            <div class="flex flex-col text-4xl lg:text-7xl text-center text-white drop-shadow-2xl drop-shadow-[0px_0_12px_rgba(255,255,255,0.5)]">
                 <span class="font-regular lg:font-black">Revolucione sua</span>
                 <span class="font-black uppercase mt-4 lg:mt-0 tracking-wider lg:lowercase lg:tracking-none">experiência musical</span>
             </div>
-            <div class="font-regular text-justify lg:text-center text-white text-xl tracking-wide items-center my-8">
+            <div class="font-regular text-justify lg:text-center text-white text-lg lg:text-xl tracking-wide items-center my-8">
                 <div>
                     Descubra uma nova era na conexão entre <span class="mx-1 font-bold">mercado criativo, comercial e serviços</span>. <br class="hidden lg:inline-block">
                     Participe dessa transformação que vai elevar seu  som  para um patamar inédito.
