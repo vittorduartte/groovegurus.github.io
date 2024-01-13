@@ -1,7 +1,7 @@
 <template>
   <section id="research">
     <div class="flex justify-center items-center w-full py-24">
-        <div class="flex flex-col my-24 lg:mr-5">
+        <div class="flex flex-col my-24 px-3 lg:px-0 lg:mr-5">
             <h3 class="text-3xl text-brand-main text-center font-medium">
                 Dê voz à sua experiência e <br/>
                 participe da nossa pesquisa<span class="writing-machine">_</span> 
