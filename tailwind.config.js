@@ -24,6 +24,8 @@ module.exports = {
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
+      'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      'infinite-scrollinverse': 'infinite-scrollinverse 25s linear infinite',
     },
     aria: {
       busy: 'busy="true"',
@@ -608,6 +610,14 @@ module.exports = {
           animationTimingFunction: 'cubic-bezier(0,0,0.2,1)',
         },
       },
+      'infinite-scroll': {
+        from: { transform: 'translateX(0)' },
+        to: { transform: 'translateX(-100%)' },
+      },
+      'infinite-scrollinverse': {
+        from: { transform: 'translateX(-100%)' },
+        to: { transform: 'translateX(0)' },
+      }
     },
     letterSpacing: {
       tighter: '-0.05em',
