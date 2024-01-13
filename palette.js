@@ -8,6 +8,7 @@ module.exports = {
       gray: '#e3e1e1',
       info: '#8296FB',
       graydark: '#C0BCB0',
+      grayborder: '#B9B9B9',
       warning: '#E4B52E',
       danger: '#F88676',
     },
