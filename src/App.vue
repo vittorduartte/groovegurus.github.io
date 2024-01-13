@@ -4,6 +4,7 @@
     <AboutUs />
     <Research />
   </div>
+  <GuruPass />
   <Footer />
 </template>
 
@@ -12,6 +13,7 @@ import Hero from './components/Hero.vue';
 import AboutUs from './components/AboutUs.vue';
 import Research from './components/Research.vue';
 import Footer from './components/Footer.vue';
+import GuruPass from './components/GuruPass.vue';
 
 export default {
   name: "App",
@@ -19,7 +21,8 @@ export default {
     Hero,
     AboutUs,
     Research,
-    Footer,
+    GuruPass,
+    Footer
   },
 };
 </script>
