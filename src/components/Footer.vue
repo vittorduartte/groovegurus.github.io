@@ -2,7 +2,7 @@
 <footer class="flex justify-center w-full bg-brand-velvet py-12">
     <div class="flex flex-col items-center">
         <div class="flex flex-col lg:flex-row lg:items-center">
-            <div class="mx-auto my-10 lg:mr-10 lg:my-0">
+            <div class="mx-auto my-5 lg:mr-10 lg:my-0">
                 <img src="../assets/images/logo-velvet.svg" alt="">
             </div>
             <div class="flex flex-col">
@@ -16,8 +16,8 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col lg:flex-row footer-text-copyright text-xs mt-10">
-            &lt;/> DESENVOLVIDO E MANTIDO PELO<span class="font-bold ml-3"> TIME DE TECNOLOGIA GROOVE GURUS </span>
+        <div class="flex flex-col items-center lg:flex-row footer-text-copyright text-xs mt-10">
+            &lt;/> DESENVOLVIDO E MANTIDO PELO<span class="font-bold ml-2"> TIME DE TECNOLOGIA GROOVE GURUS </span>
         </div>
     </div>
 </footer>
