@@ -3,14 +3,14 @@
         <div class="flex flex-col max-w-6xl mx-auto">
             <div class="flex justify-center">
                 <div>
-                    <h3 class="text-4xl text-center font-medium my-16 text-brand-velvetdark">
+                    <h3 class="text-2xl lg:text-4xl text-center font-medium my-10 lg:my-16 text-brand-velvetdark">
                         <span class="font-black">Faça parte da nossa história</span> <br /> 
                         garanta seu passe pra comunidade!
                     </h3>
                 </div>
             </div>
             <div class="flex justify-center">
-                <form class="z-10 flex flex-col px-10 py-12 mb-6 lg:w-3/6 lg:shadow-xl bg-white rounded-lg lg:border border-brand-grayborder/[.3]">
+                <form class="z-10 flex flex-col px-6 lg:px-10 py-12 mb-6 lg:w-3/6 lg:shadow-xl bg-white rounded-lg lg:border border-brand-grayborder/[.3]">
                     <h3 class="hidden lg:inline-block text-2xl text-center font-medium text-brand-velvetdark tracking-wider mb-8">
                         QUERO GARANTIR MINHA <br />
                         <span class="font-black">VAGA 100% GRATUITA!</span>
@@ -80,9 +80,9 @@
             </div>
         </div>
         <div class="relative -top-96 -mt-40 hidden lg:flex flex-col rotate-12 mx-auto max-w-5xl overflow-x-hidden -z-10">
-            <GuruPassInfinityScrool class="translate-x-12" :inverse="true"/>
+            <GuruPassInfinityScrool :inverse="true"/>
             <GuruPassInfinityScrool />
-            <GuruPassInfinityScrool class="-translate-x-12" :inverse="true"/>
+            <GuruPassInfinityScrool :inverse="true"/>
         </div>
     </section>
 </template>
