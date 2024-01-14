@@ -20,16 +20,16 @@
         <div class="flex flex-col pb-48 pt-32">
             <div class="flex flex-col text-4xl lg:text-7xl text-center text-white drop-shadow-2xl drop-shadow-[0px_0_12px_rgba(255,255,255,0.5)]">
                 <span class="font-regular lg:font-black">Revolucione sua</span>
-                <span class="font-black uppercase mt-4 lg:mt-0 tracking-wider lg:lowercase lg:tracking-none">experiência musical</span>
+                <span class="font-black uppercase mt-2 lg:mt-0 tracking-wider lg:lowercase lg:tracking-none">experiência musical</span>
             </div>
-            <div class="font-regular text-justify lg:text-center text-white text-lg lg:text-xl tracking-wide items-center my-8">
+            <div class="font-regular text-justify lg:text-center text-white text-base lg:text-xl tracking-widest lg:tracking-wide items-center my-8">
                 <div>
                     Descubra uma nova era na conexão entre <span class="mx-1 font-bold">mercado criativo, comercial e serviços</span>. <br class="hidden lg:inline-block">
                     Participe dessa transformação que vai elevar seu  som  para um patamar inédito.
                 </div>
             </div>
             <div class="flex justify-center">
-                <a class="flex justify-center items-center py-3 px-12 text-white font-medium bg-brand-secondary tracking-widest rounded-lg transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50" href="#">
+                <a class="flex justify-center items-center py-3 px-12 text-white w-full lg:w-auto font-medium bg-brand-secondary tracking-widest rounded-lg transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50" href="#">
                     <font-awesome-icon class="mr-3 fa-lg" :icon="['far', 'compass']" />
                     EXPLORAR MAIS
                 </a>
