@@ -11,6 +11,7 @@ module.exports = {
       grayborder: '#B9B9B9',
       warning: '#E4B52E',
       danger: '#F88676',
+      success: '#2DAC00',
     },
     mediumslateblue: {
       50: '#f6f9fd',
