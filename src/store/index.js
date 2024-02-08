@@ -1,14 +1,20 @@
 import { createStore } from 'vuex'
 
-export default createStore({
+const store = createStore({
   state: {
+    modal: false
   },
   getters: {
   },
   mutations: {
+    handleModal(state) {
+      state.modal = !state.modal
+    }
   },
   actions: {
   },
   modules: {
   }
 })
+
+export default store 
