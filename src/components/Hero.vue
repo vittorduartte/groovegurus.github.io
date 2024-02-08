@@ -10,7 +10,7 @@
             <nav class="items-center hidden lg:flex">
                 <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#about-us">Sobre Nós</a>
                 <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#research">Pesquisa</a>
-                <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#comunity">Comunidade</a>
+                <a class="font-medium text-md text-brand-gray menu-item-hover mr-8" href="#community">Comunidade</a>
                 <a class="button-anchor border-2 border-brand-main transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50 hover:border-white/80" href="#">
                     <font-awesome-icon class="fa-lg mr-2" :icon="['fas', 'hand-holding-heart']" />
                     Quero ser apoiador
@@ -24,12 +24,12 @@
             </div>
             <div class="font-regular text-justify lg:text-center text-white text-base lg:text-xl tracking-widest lg:tracking-wide items-center my-8">
                 <div>
-                    Descubra uma nova era na conexão entre <span class="mx-1 font-bold">mercado criativo, comercial e serviços</span>. <br class="hidden lg:inline-block">
+                    Descubra uma nova era na conexão entre <span class="mx-1 font-bold">músicos, lojistas e prestadores de serviços</span>. <br class="hidden lg:inline-block">
                     Participe dessa transformação que vai elevar seu  som  para um patamar inédito.
                 </div>
             </div>
             <div class="flex justify-center">
-                <a class="flex justify-center items-center py-3 px-12 text-white w-full lg:w-auto font-medium bg-brand-secondary tracking-widest rounded-lg transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50" href="#">
+                <a class="flex justify-center items-center py-3 px-12 text-white w-full lg:w-auto font-medium bg-brand-secondary tracking-widest rounded-lg transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-secondary/50" href="#community">
                     <font-awesome-icon class="mr-3 fa-lg" :icon="['far', 'compass']" />
                     EXPLORAR MAIS
                 </a>
